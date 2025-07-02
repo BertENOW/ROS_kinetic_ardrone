@@ -66,7 +66,8 @@ include ${catkin_INCLUDE_DIRS} ${Boost_INCLUDE_DIR} ${OpenCV_INCLUDE_DIRS}
 
 #Add python scripts here. Don't forget to make them executable with chmod
 catkin_install_python( PROGRAMS scripts/face_detect.py scripts/img_process.py 
-scripts/face_detect_stream.py scripts/convert_ros_cv.py scripts/
+scripts/face_detect_stream.py scripts/convert_ros_cv.py scripts/ros_face_detect.py
+scripts/generate_tags.py scripts/detect_tags.py
 DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
