@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="ardrone_test" name="face_detect" type="ros_face_detect.py"/>
+    <node pkg="ardrone_tutorials_getting_started" name="ardrone_controller" type="keyboard_controller.py"/>
+</launch>

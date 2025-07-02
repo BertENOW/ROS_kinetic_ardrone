@@ -1,0 +1,8 @@
+#takeoff=1 land=0
+int32 takeoff_land
+---
+#feedback
+bool done
+---
+#result
+bool progress

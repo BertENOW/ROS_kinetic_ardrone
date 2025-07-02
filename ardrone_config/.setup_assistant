@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: cvg_sim_gazebo
+    relative_path: urdf/quadrotor_sensors.urdf.xacro
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/quadrotor_hokuyo_utm30lx.srdf
+  CONFIG:
+    author_name: bert
+    author_email: betrandk.enow@mycit.ie
+    generated_timestamp: 1750285924
