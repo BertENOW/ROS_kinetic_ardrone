@@ -1,4 +1,5 @@
 <launch>
-    <node pkg="ardrone_test" name="face_detect" type="ros_face_detect.py"/>
+    <node pkg="ardrone_test" name="takeoff_land_service" type="toff_land_server"/>
+    <node pkg="ardrone_test" name="face_tag_detect" type="detect_face_tag_action.py"/>
     <node pkg="ardrone_tutorials_getting_started" name="ardrone_controller" type="keyboard_controller.py"/>
 </launch>
